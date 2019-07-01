@@ -37,24 +37,3 @@ body {
 
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
-
-.piece .card {
-	margin-top: 3rem;
-	display: inline-block;
-
-	padding: 4rem 10rem 4rem 4rem;
-
-	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-
-	display: none;
-}
-
-.piece .card h2 {
-	font-size: 3rem;
-	margin-bottom: 1rem;
-}
-
-.piece .card p {
-	font-size: 1.8rem;
-	margin-bottom: 1rem;
-}
