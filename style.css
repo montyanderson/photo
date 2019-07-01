@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (min-width: 0px) {
+	html { font-size: 8px; }
+	body { width: 90%; }
+}
+
+@media only screen and (min-width: 700px) {
+	html { font-size: 10px; }
+	body { width: 80%; }
+}
+
+@media only screen and (min-width: 1000px) {
+	html { font-size: 12px; }
+	body { width: 50%; }
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	color: #363636;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.piece {
+	margin-top: 10rem;
+	margin-bottom: 2rem;
+}
+
+.piece img {
+	width: 100%;
+	border-radius: 2px;
+
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.piece .card {
+	margin-top: 3rem;
+	display: inline-block;
+
+	padding: 4rem 10rem 4rem 4rem;
+
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.piece .card h2 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.piece .card p {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+}
