@@ -24,11 +24,12 @@ body {
 
 	margin-left: auto;
 	margin-right: auto;
+
+	padding-bottom: 10rem;
 }
 
 .piece {
 	margin-top: 10rem;
-	margin-bottom: 2rem;
 }
 
 .piece img {
